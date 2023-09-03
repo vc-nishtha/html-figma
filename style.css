@@ -1,5 +1,5 @@
 .flex-container {
-    font-family: arial, sans-serif;
+    font-family: "Poppins", sans-serif;
     display: flex;
     margin-top: 10px;
     width: max-content;
@@ -28,10 +28,14 @@
     min-height: 100vh;
 }
 
+.sidebar {
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .sidebar-modules {
     text-align: center;
     color: gray;
-    /* margin: 5px; */
     padding: 20px;
 }
 
@@ -40,7 +44,6 @@ hr {
 }
 
 .footer {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500px;
     margin-top: 200px;
 }
@@ -94,6 +97,41 @@ hr {
     margin-top: 60px;
 }
 
+.green-text {
+    color: green;
+}
+
+.red-text {
+    color: red;
+}
+
+.gray-text {
+    color: gray;
+}
+
+
+.text-label {
+    color: #ff730e;
+}
+
+.pl-5 {
+    padding-left: 5px;
+}
+
+.fr {
+    float: right;
+}
+
+
+.logout {
+    background-color: rgb(251, 240, 240);
+    color: #ff730e;
+    width: 60px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 2px;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
@@ -110,27 +148,19 @@ tr {
     border-bottom: 1px solid #e8e7e7;
 }
 
-.green-text {
-    color: green;
+.pagination {
+    display: inline-block;
 }
 
-.red-text {
-    color: red;
+.pagination a {
+    color: black;
+    font-size: 16px;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 
-.gray-text {
-    color: gray;
-}
-
-.logout {
-    background-color: rgb(251, 240, 240);
-    color: rgb(247, 164, 9);
-    width: 60px;
-    text-align: center;
-    border-radius: 8px;
-    padding: 2px;
-}
-
-.pl-5 {
-    padding-left: 5px;
+.pagination a.active {
+    background-color: #ff730e;
+    color: white;
 }

@@ -5,6 +5,10 @@
     <title>Figma</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
@@ -13,41 +17,43 @@
     <div class="flex-container">
         <div class="card">
             <div class="header">
-                <p clas="bold-text"> Calopad</p>
+                <img src="../figma/image/logo.png" style="width:150px" />
                 <p class="header-text">Cards Management System</p>
             </div>
-            <p>
-                <span class="gray-text">
-                    <i class="fas fa-th-large"></i>
-                </span>
-                <span class="sidebar-modules">Dashboard</span>
-            </p>
-            <hr>
-            Partners
-            <i class="fas fa-caret-down"></i>
-            <p>
-                <span class="gray-text">
-                    <i class="fas fa-list-ul"></i>
-                </span>
-                <span class="sidebar-modules">Partners</span>
-            </p>
-            <hr>
-            Settings <i class="fas fa-caret-down"></i>
-            <p>
-                <span class="gray-text">
-                    <i class="fas fa-cog"></i>
-                </span>
-                <span class="sidebar-modules">General</span>
-            </p>
-            <div class="footer">
-                <p>Nishtha</p>
-                <p class="logout small-text">ADMIN</p>
+            <div class="sidebar">
                 <p>
-
                     <span class="gray-text">
-                        <i class="fas fa-sign-out-alt"></i>
-                        Logout</span>
+                        <i class="fas fa-th-large"></i>
+                    </span>
+                    <span class="sidebar-modules">Dashboard</span>
                 </p>
+                <hr>
+                Partners
+                <i class="fas fa-caret-down"></i>
+                <p>
+                    <span class="gray-text">
+                        <i class="fas fa-list-ul"></i>
+                    </span>
+                    <span class="sidebar-modules">Partners</span>
+                </p>
+                <hr>
+                Settings <i class="fas fa-caret-down"></i>
+                <p>
+                    <span class="gray-text">
+                        <i class="fas fa-cog"></i>
+                    </span>
+                    <span class="sidebar-modules">General</span>
+                </p>
+                <div class="footer">
+                    <p>Nishtha</p>
+                    <p class="logout small-text">ADMIN</p>
+                    <p>
+
+                        <span class="gray-text">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Logout</span>
+                    </p>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -100,7 +106,6 @@
                 <div class="card-container">
                     <div>
                         <span class="bold-text"> Overview Perfomance </span>
-                        <span class="text">Last week</span>
                     </div>
                     <img src="../figma/image/images.png" />
                 </div>
@@ -154,26 +159,36 @@
                         <th>Billable</th>
                     </tr>
                     <tr>
-                        <td>TCM Jannie</td>
+                        <td class="text-label">TCM Jannie</td>
                         <td>02.09.2023 17:51</td>
                         <td class="green-text">CHF 49</td>
                     </tr>
                     <tr>
-                        <td>TCM Jannie</td>
+                        <td class="text-label">TCM Jannie</td>
                         <td>02.09.2023 17:51</td>
                         <td class="green-text">CHF 49</td>
                     </tr>
                     <tr>
-                        <td>TCM Jannie</td>
+                        <td class="text-label">TCM Jannie</td>
                         <td>02.09.2023 17:51</td>
                         <td class="green-text">CHF 49</td>
                     </tr>
                     <tr>
-                        <td>TCM Jannie</td>
+                        <td class="text-label">TCM Jannie</td>
                         <td>02.09.2023 17:51</td>
                         <td class="green-text">CHF 49</td>
                     </tr>
                 </table>
+                <div class="pagination fr">
+                    <a href="#">&laquo;</a>
+                    <a href="#">1</a>
+                    <a class="active" href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
+                </div>
             </div>
         </div>
     </div>
