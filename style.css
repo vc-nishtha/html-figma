@@ -5,12 +5,6 @@
     width: max-content;
 }
 
-.flex-container>div {
-    background-color: #ffffff;
-    padding: 20px;
-    font-size: 20px;
-}
-
 .header {
     margin-top: 20px;
     margin-bottom: 50px;
@@ -26,11 +20,24 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     min-height: 100vh;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
 }
 
 .sidebar {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    list-style: none;
+    margin: 20px;
 }
 
 .sidebar-modules {
@@ -39,13 +46,10 @@
     padding: 20px;
 }
 
-hr {
-    border-color: #e8e7e7;
-}
-
 .footer {
     font-weight: 500px;
     margin-top: 200px;
+    margin-left: 10px;
 }
 
 .container {
@@ -75,7 +79,7 @@ hr {
 
 .bold-text {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     padding-bottom: 5px;
 }
 
